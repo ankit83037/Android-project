@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment1"
+    android:background="#FFEB3B"
+    android:paddingBottom="40dp">
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment1"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/msgTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"/>
+
+    <Button
+        android:id="@+id/msgToActivity3Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send msg to Activity3"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="130dp"
+        />
+
+    <Button
+        android:id="@+id/msgToFragment2Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send msg to Fragment2"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+</FrameLayout>
